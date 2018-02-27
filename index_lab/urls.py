@@ -20,5 +20,5 @@ from apps.contacto import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    
+    url(r'^contacto/$', views.Contacto, name='contacto')
 ]
